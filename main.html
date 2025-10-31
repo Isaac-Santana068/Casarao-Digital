@@ -4,19 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/main.css">
-    <title>Casarão Degital</title>
+    <title>Casarão Digital</title>
 </head>
 <body>
+    <script src="troca_imagem.js"></script>
     <div class="conteiner_web">
         <nav class="navegador">
             <h1 id="titulo">Casarão do Horto</h1>
             <div class="botoes">
-                <button>Entrar</button>
-                <button>Cadastrar</button>
+                <button id="entrar">Entrar</button>
+                <button id="cadas">Cadastrar</button>
             </div>
         </nav>
         <img src="" alt="">
-        
     </div>
+    <script>
+        var entrar = document.getElementById("entrar")
+        var cadas = document.getElementById("cadas")
+        /*---------------B.Entrar----------------*/
+        entrar.addEventListener("mouseover", () => {
+            entrar.style.backgroundColor = 'black'
+        })
+        /*Troca a cor de fundo do botão quando o cursor estiver em cima*/
+        entrar.addEventListener("mouseout", () => {
+            entrar.style.backgroundColor = '#3e64c4'
+        })
+        /*Troca a cor da fonte do botão quando o cursor estiver em cima*/
+        entrar.addEventListener("click", () => {
+            window.location.href = "login.html"
+        })
+        /*---------------B.Cadastar----------------*/
+        cadas.addEventListener("mouseover", () => {
+            cadas.style.backgroundColor = 'black'
+        })
+        /*Troca a cor de fundo do botão quando o cursor estiver em cima*/
+        cadas.addEventListener("mouseout", () => {
+            cadas.style.backgroundColor = '#3e64c4'
+        })
+        /*Troca a cor da fonte do botão quando o cursor estiver em cima*/
+        cadas.addEventListener("click", () => {
+            window.location.href = "register.html"
+        })
+    </script>
 </body>
 </html>
