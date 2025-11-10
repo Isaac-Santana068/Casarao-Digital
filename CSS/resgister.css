@@ -1,0 +1,44 @@
+.conteiner_forms{
+    display: flex;
+    position: relative;
+    z-index: 2;
+    flex-direction: column;
+    background-color: white;
+    margin: 0vh;
+    width: 70vh;
+    height: 110vh;
+    border-radius: 50px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 10px 20px 0px black;
+}
+.form{
+    position: relative;
+    bottom: 50px;
+    width: 50vh;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(192, 191, 191);
+}
+input[type="text"], input[type="password"], input[type="email"]{
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+}
+input[type="date"]{
+    border: none;
+    border-radius: 10px;
+    background-color:rgb(192, 191, 191) ;
+    height:30px;
+    width: 20vh;
+    font-size: 18px;
+}
+#cadastrar{
+    position: relative;
+    font-size: 20px;
+    width:120px;
+    height:45px;
+    top: 20px;
+}

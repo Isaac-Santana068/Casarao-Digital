@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/base.css">
+    <link rel="stylesheet" href="CSS/login.css">
+    <title>Entrar</title>
+</head>
+<body class="login">
+    <div class="conteiner_login">
+        <nav class="navegador">
+            <h1 id="titulo">Casarão digital</h1>
+        </nav>
+        <div class="conteiner_forms">
+            <h2 style="position: relative; bottom: 40px;">Email</h2>
+            <input type="email" class="form">
+            <h2 style="position: relative; bottom: 40px;;;">Senha</h2>
+            <input type="password" maxlength="8" required class="form">
+            <button id="entrar">Entrar</button>
+            <div class="opcoes" style="display:flex; flex-direction: column; margin-top: 50px;">
+                <a href="">Esqueceu a senha?</a>
+                <a href="">Não tem uma conta?</a>
+            </div>
+        </div>
+    </div>
+    <script>
+        var entrar = document.getElementById("entrar")
+        entrar.addEventListener("mouseover", () => {
+            entrar.style.backgroundColor = "black"
+        } )
+        entrar.addEventListener("mouseout", () => {
+            entrar.style.backgroundColor = "#3e64c4"
+        })
+    </script>
+</body>
+</html>

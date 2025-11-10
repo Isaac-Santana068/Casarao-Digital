@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/base.css">
+    <link rel="stylesheet" href="CSS/resgister.css">
+    <title>Cadastrar</title>
+</head>
+<body class="resgister">
+    <div class="conteiner_login">
+        <nav class="navegador">
+            <h1 id="titulo">Casarão digital</h1>
+        </nav>
+        <div class="conteiner_forms">
+            <h2>Nome</h2>
+            <input type="text" class="form" style="position: relative; bottom:10px;">
+            <h2>Sobrenome</h2>
+            <input type="text" class="form" style="position: relative; bottom:10px;">
+            <h2>Nascimento</h2>
+            <input type="date" style="position: relative; bottom:10px;">
+            <h2 style="position: relative; bottom: 15px;">Email</h2>
+            <input type="email" class="form" style="position: relative; bottom:25px;">
+            <h2 style="position: relative; bottom: 15px;">Senha</h2>
+            <input type="password" maxlength="8" required class="form" style="position: relative; bottom:25px;">
+            <button id="cadastrar">Cadastrar</button>
+        </div>
+    </div>
+    <script>
+        var entrar = document.getElementById("entrar")
+        entrar.addEventListener("mouseover", () => {
+            entrar.style.backgroundColor = "black"
+        } )
+        entrar.addEventListener("mouseout", () => {
+            entrar.style.backgroundColor = "#3e64c4"
+        })
+    </script>
+</body>
+</html>
