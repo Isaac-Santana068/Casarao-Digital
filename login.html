@@ -17,21 +17,13 @@
             <input type="email" class="form">
             <h2 style="position: relative; bottom: 40px;;;">Senha</h2>
             <input type="password" maxlength="8" required class="form">
-            <button id="entrar">Entrar</button>
+            <a href="home.html"><button id="entrar">Entrar</button></a>
             <div class="opcoes" style="display:flex; flex-direction: column; margin-top: 50px;">
-                <a href="">Esqueceu a senha?</a>
-                <a href="">Não tem uma conta?</a>
+                <a href="#">Esqueceu a senha?</a>
+                <a href="register.html">Não tem uma conta?</a>
             </div>
         </div>
     </div>
-    <script>
-        var entrar = document.getElementById("entrar")
-        entrar.addEventListener("mouseover", () => {
-            entrar.style.backgroundColor = "black"
-        } )
-        entrar.addEventListener("mouseout", () => {
-            entrar.style.backgroundColor = "#3e64c4"
-        })
-    </script>
+    <script src="JS/troca_imagem.js"></script>
 </body>
 </html>

@@ -1,15 +1,8 @@
-.descricao{
-    background-color: greenyellow;
-    width: 78vh;
-    height: 30vh;
-    border-radius: 20px;
-}
 iframe{
-    position: relative;
-    left: 10%;
-    height: 80vh;
-    width: 80%;
-    border:none;
+    position: absolute; /* Use absolute or relative positioning */
+    top: 96px;         /* Position it 100px from the top (below the fixed bar) */
+    left: 15%;
+    width: 70%;        /* Use 100% of the viewport width */
+    height: calc(100vh - 100px); /* Use the total height minus the bar height */
     border-radius: 20px;
-
 }
