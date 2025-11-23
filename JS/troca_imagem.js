@@ -1,7 +1,8 @@
 const imagens = [
-        "assests/fundo1.jpeg",
-        "assests/fundo2.jpeg",
-        "assests/fundo3.jpg"
+        "assests/fundo1.jpg",
+        "assests/fundo2.jpg",
+        "assests/fundo3.jpg",
+        "assests/fundo4.png"
     ]
 let indice = 0
 function trocar_imagem(){

@@ -1,0 +1,14 @@
+.opcoes{
+    width:300px;
+    height:200px;
+    margin-top: 20vh;
+    margin-left: 30px;
+    border-radius: 10px;
+}
+input[type="img"]{
+    border: none;
+}
+.opcoes:hover{
+    cursor: pointer;
+    border: 5px solid black;
+}
