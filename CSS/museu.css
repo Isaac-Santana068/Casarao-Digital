@@ -6,3 +6,13 @@ iframe{
     height: calc(100vh - 100px); /* Use the total height minus the bar height */
     border-radius: 20px;
 }
+.descricao{
+    position: relative;
+    top: 90vh;
+    left: 24%;
+    width: 50%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px 0px black;
+}
