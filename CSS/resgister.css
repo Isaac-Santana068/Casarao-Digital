@@ -1,0 +1,58 @@
+.resgister{
+    margin: 0;
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    transition:background-image 1s ease-in-out;
+}
+.conteiner_forms{
+    display: flex;
+    position: relative;
+    top:120px;
+    z-index: 0;
+    flex-direction: column;
+    background-color: white;
+    margin: 0vh;
+    width: 60vh;
+    height: 80vh;
+    border-radius: 50px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 10px 20px 0px black;
+}
+.form{
+    position: relative;
+    bottom: 50px;
+    width: 40vh;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(192, 191, 191);
+}
+input[type="text"], input[type="password"], input[type="email"]{
+    font-size: 15px;
+    padding: 10px;
+    border: none;
+}
+input[type="date"]{
+    border: none;
+    border-radius: 10px;
+    background-color:rgb(192, 191, 191) ;
+    height:30px;
+    width: 20vh;
+    font-size: 18px;
+}
+#cadastrar{
+    position: relative;
+    font-size: 20px;
+    width:120px;
+    height:45px;
+    top: 20px;
+}
+#cadastrar:hover{
+    cursor: pointer;
+    background-color: black;
+}
