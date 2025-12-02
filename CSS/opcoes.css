@@ -1,8 +1,8 @@
 #opcoes{
-    width:300px;
-    height:200px;
+    width:80vh;
+    height:60vh;
     margin-top: 20vh;
-    margin-left: 30px;
+    margin-left: 30%;
     border-radius: 10px;
 }
 input[type="img"]{
@@ -28,6 +28,7 @@ input[type="img"]{
     bottom:30%;
     left: 120px;
     background-color: white;
+    border-radius: 10px;
     width: 90vh;
     height: 70vh;
     padding: 20px;
@@ -63,3 +64,4 @@ input[type="img"]{
     background-color: black;
     color: white;
 }
+
